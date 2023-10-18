@@ -5,7 +5,9 @@ Basically your IllustrisTNG hdf5 file must have 'GFM_Metallicity' and 'GFM_Stell
 Some explanation of use:
 
 1- This program is an adaptation of the galmock code shared earlier (https://github.com/Gustavosh23/galmock).
+
 2- The param.ini file has some control options like plotting specifications, rotation of the displayed galaxy etc.
+
 3- For the function to be able to create FITS files you'll need to make a small addition to your python source code. See the field, "pynbody code change" below.
 
 # Pynbody source code change
