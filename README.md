@@ -5,11 +5,11 @@ Basically your IllustrisTNG hdf5 file must have 'GFM_Metallicity' and 'GFM_Stell
 ![mock_subhalo371127](https://github.com/Gustavosh23/TNG-mock-FITS/assets/84388472/64770aad-070b-491b-bc2e-0daeaab7d87e)
 
 ![3 bands from FITS files](https://github.com/Gustavosh23/TNG-mock-FITS/assets/84388472/00385114-7942-4592-842c-317bf9b61536)
-
+This program is an adaptation of the galmock code shared earlier (https://github.com/Gustavosh23/galmock).
 
 Some explanation of use:
 
-1- This program is an adaptation of the galmock code shared earlier (https://github.com/Gustavosh23/galmock).
+1- The galaxy snapshot must be centered and with the disk aligned to the x,y plane for a face-on view. There is an example snapshot between the files.
 
 2- The param.ini file has some control options like plotting specifications, rotation of the displayed galaxy, contributions of each filter etc.
 
