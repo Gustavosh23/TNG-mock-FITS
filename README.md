@@ -9,11 +9,14 @@ This program is an adaptation of the galmock code shared earlier (https://github
 
 Some explanation of use:
 
-1- The galaxy snapshot must be centered and with the disk aligned to the x,y plane for a face-on view. There is an example snapshot between the files.
+1- The galaxy snapshot must be centered and with the disk aligned to the x,y plane for a face-on view.  There's an example snapshot below.
 
 2- The param.ini file has some control options like plotting specifications, rotation of the displayed galaxy, contributions of each filter etc.
 
 3- For the function to be able to create FITS files you'll need to make a small addition to your python source code. See the field, "pynbody code change" below.
+
+# Subhalo example (centered and rotated for a faceon view)
+https://drive.google.com/drive/folders/1FR0UbKVFeKKYjQmWqKuvUR7i-BYwyvrz?usp=share_link
 
 # Pynbody source code change
 Once you have the pynbody library installed on your computer you will need to edit the file named stars.py. The path where this file can be found should look something like this:
