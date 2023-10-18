@@ -12,10 +12,10 @@ cosmo = FlatLambdaCDM(H0=70, Om0=0.3)
 '''
 galmock.py
 
-This python program adapts hdf5 snapshots of n-body simulations of isolated galaxies that use star formation, such as those from GADGET-4, allowing the plotting of realistic visualizations that take into account metallicity and particle age of the simulated galaxy.
+This python program adapts hdf5 snapshots from IllustrisTNG galaxies creating the plot of realistic visualizations, that take into account metallicity and age of particles in the simulated subhalo.
 
 Usage:
-python3 galmock.py [snapshot --hdf5]
+python3 TNGmockFITS.py [snapshot.hdf5] [param.ini]
 '''
 
 ########################################################################
