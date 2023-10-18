@@ -1,0 +1,12 @@
+from astropy.io import fits
+
+def mag_to_counts(magnitude_array):
+	return 10**(-magnitude_array / 2.5)
+
+r_counts = mag_to_counts(r)
+g_counts = mag_to_counts(g)
+b_counts = mag_to_counts(b)
+
+fits.PrimaryHDU(r_counts).writeto('r_counts.fits', overwrite=True)
+fits.PrimaryHDU(g_counts).writeto('g_counts.fits', overwrite=True)
+fits.PrimaryHDU(b_counts).writeto('b_counts.fits', overwrite=True)
