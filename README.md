@@ -13,7 +13,7 @@ Some explanation of use:
 
 2- The param.ini file has some control options like plotting specifications, rotation of the displayed galaxy, contributions of each filter etc.
 
-3- For the function to be able to create FITS files you'll need to make a small addition to your python source code. See the field, "pynbody code change" below.
+3- For the function to be able to create FITS files you'll need to make a small addition to your pynbody library source code. See the field, "pynbody code change" below.
 
 # Subhalo example (centered and rotated for a faceon view)
 https://drive.google.com/drive/folders/1FR0UbKVFeKKYjQmWqKuvUR7i-BYwyvrz?usp=share_link
