@@ -5,6 +5,7 @@ Basically your IllustrisTNG hdf5 file must have 'GFM_Metallicity' and 'GFM_Stell
 ![mock_subhalo371127](https://github.com/Gustavosh23/TNG-mock-FITS/assets/84388472/64770aad-070b-491b-bc2e-0daeaab7d87e)
 
 ![3 bands from FITS files](https://github.com/Gustavosh23/TNG-mock-FITS/assets/84388472/00385114-7942-4592-842c-317bf9b61536)
+
 This program is an adaptation of the galmock code shared earlier (https://github.com/Gustavosh23/galmock).
 
 Some explanation of use:
