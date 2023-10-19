@@ -21,7 +21,7 @@ https://drive.google.com/drive/folders/1FR0UbKVFeKKYjQmWqKuvUR7i-BYwyvrz?usp=sha
 # Pynbody source code change
 Once you have the pynbody library installed on your computer you will need to edit the file named stars.py. The path where this file can be found should look something like this:
 
-/anaconda3/lib/python3.9/site-packages/pynbody/plot/stars.py
+~/anaconda3/lib/python3.9/site-packages/pynbody/plot/stars.py
 
 The snippet code is very short and is available in the snippet_TNGmockFIT.txt file. It should be placed on line 252 of the stars.py file, respecting the indentation of the original code. 
 
