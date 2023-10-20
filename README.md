@@ -2,7 +2,7 @@
 This python program adapts hdf5 snapshots from IllustrisTNG galaxies creating the plot of realistic visualizations, that take into account metallicity and age of stellar particles in the simulated subhalo. We've added a snippet code to the source code of a function in the pynbody library to save contributions from each filter (b, g and r) in FITS format.
 Basically your IllustrisTNG hdf5 file must have 'GFM_Metallicity' and 'GFM_StellarFormationTime' values in the PartType4 group that will be considered in the plotting.
 
-![mock_subhalo371127](https://github.com/Gustavosh23/TNG-mock-FITS/assets/84388472/64770aad-070b-491b-bc2e-0daeaab7d87e)
+![faceon_mock_13 47](https://github.com/Gustavosh23/TNG-mock-FITS/assets/84388472/50730371-b189-4188-8d9c-5e8582952a9a)
 
 ![3 bands from FITS files](https://github.com/Gustavosh23/TNG-mock-FITS/assets/84388472/00385114-7942-4592-842c-317bf9b61536)
 
